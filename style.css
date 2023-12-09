@@ -113,6 +113,7 @@ body {
 .matchs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
     grid-row-gap: 20px;
 }
 
@@ -172,7 +173,7 @@ body {
 
 .foot {
     background-color: black;
-    width: 1300px;
+    width: 1348px;
     height: 340px;
     margin-left: -120px;
     margin-bottom: -120px;
