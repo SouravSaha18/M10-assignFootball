@@ -244,3 +244,51 @@ hr {
     color: #413e3e;
     font-size: 15px;
 }
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .middle {
+        flex-direction: column;
+    }
+
+    .link {
+
+        background-color: #FFF;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .f-nav {
+        flex-direction: column;
+        margin-left: -90px;
+        margin-right: 0;
+    }
+
+    .foot {
+        text-align: center;
+        width: 500px;
+        height: 400px;
+    }
+
+    .foot h1 {
+        padding-top: -400px;
+    }
+
+    hr {
+        width: 500px;
+    }
+
+    .cover {
+        flex-direction: column;
+        height: 900px;
+        margin: -30px -90px;
+    }
+
+    .c-img img {
+        width: 233px;
+        height: 269px;
+        margin-left: 100px;
+    }
+}
